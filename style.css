@@ -1,1 +1,132 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
 
+.navigation{
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    border:0px  solid ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.element1{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#a6ace9;
+    
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2142083443578006561/9E6A2E9F752246F94654AC5EBFB3D7F04A2AD3FE/") ;
+    background-position: 50% 20%;
+}
+.element2{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#eba863;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2142083443578006554/3C59408CB8656501E3A745C1E924937686643C43/");
+    background-position: 50% 20%;
+    
+}
+.element3{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#9cf75d;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2115060196327359169/CB23AF107421D491C681DF4FB3ABDFA8B44D03F1/");
+    background-position: 45% 20%;
+}
+.element4{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#dd76ac;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2142083443578006602/8CAD2355CAF715805AD87069A2C438078D553D6E/");
+    background-position:50% 20% ;
+}
+.element5{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#4ef3a3;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2142083443578006627/CCD3C798D9C1EB9BC3F22EB9F8A8D91841BB3636/");
+    background-position: 50% 30% ;
+}
+.element6{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#f7e031;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2142083443578006574/D645B1850AA14BC34B638B94A29A0B1662769D89/") ;
+    background-position: 50% 30%;
+}
+.element7{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#dd6de6;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image:  url("https://images.steamusercontent.com/ugc/2142083443578006361/4CE6787859FE02554B8B1C5FAC974693F648AD82/");
+    background-position: 50% 20%;
+}
+.element8{
+    display:flex;
+    border:0px solid #173747;
+    margin:20px;
+    padding:15px;
+    border-radius:100px;
+    justify-content: center;
+    text-decoration: none;
+    color:#fb5d5e;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    background-image: url("https://images.steamusercontent.com/ugc/2115060196327367785/921EF2FAE5518ED30C24BE74F0654517EEDA47BC/");
+    background-position: 50% 20%;
+    
+}
