@@ -149,15 +149,65 @@ img {
 }
 
 /* =========================
-   FOOTER
+   FOOTER (ОНОВЛЕНИЙ)
 ========================= */
 
-footer {
-  margin-top: 80px;
-  padding: 30px;
-  text-align: center;
-  background: rgba(0,0,0,0.5);
-  box-shadow: inset 0 5px 15px rgba(0,0,0,0.6);
-  color: #aaa;
+.footer {
+  margin-top: 60px;
+  background: linear-gradient(180deg, #0b0d25, #000);
+  color: #ddd;
+  box-shadow: inset 0 6px 20px rgba(0,0,0,0.8);
 }
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* ЛІВА ЧАСТИНА */
+.footer-left h3 {
+  margin: 0 0 15px;
+  color: #ffd86b;
+}
+
+.footer-images {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-images img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+}
+
+/* ПРАВА ЧАСТИНА */
+.footer-right h4 {
+  margin-bottom: 10px;
+  color: #9cf75d;
+}
+
+.footer-right p {
+  margin: 6px 0;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* НИЖНЯ ЛІНІЯ */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
 
