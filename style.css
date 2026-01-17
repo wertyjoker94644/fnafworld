@@ -175,18 +175,6 @@ img {
   color: #ffd86b;
 }
 
-.footer-images {
-  display: flex;
-  gap: 10px;
-}
-
-.footer-images img {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
-}
 
 /* ПРАВА ЧАСТИНА */
 .footer-right h4 {
