@@ -1,11 +1,7 @@
-/* =========================
-   ОСНОВНІ НАЛАШТУВАННЯ
-========================= */
 
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -13,11 +9,6 @@ body {
   color: #ffffff;
   line-height: 1.7;
 }
-
-/* =========================
-   НАВІГАЦІЯ
-========================= */
-
 .navigation {
   position: fixed;
   top: 0;
@@ -33,8 +24,6 @@ body {
   box-shadow: 0 5px 25px rgba(0,0,0,0.6);
   z-index: 1000;
 }
-
-/* Загальний стиль для кнопок меню */
 .navigation a {
   text-decoration: none;
   font-weight: bold;
@@ -45,27 +34,17 @@ body {
   background-position: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
-
-/* Hover ефект */
 .navigation a:hover {
   transform: translateY(-4px) scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.8);
 }
-
-/* Індивідуальні кнопки */
 .element1 { color:#a6ace9; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006561/9E6A2E9F752246F94654AC5EBFB3D7F04A2AD3FE/"); }
 .element2 { color:#eba863; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006554/3C59408CB8656501E3A745C1E924937686643C43/"); }
 .element3 { color:#9cf75d; background-image:url("https://images.steamusercontent.com/ugc/2115060196327359169/CB23AF107421D491C681DF4FB3ABDFA8B44D03F1/"); }
-
 .element5 { color:#4ef3a3; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006627/CCD3C798D9C1EB9BC3F22EB9F8A8D91841BB3636/"); }
 .element6 { color:#f7e031; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006574/D645B1850AA14BC34B638B94A29A0B1662769D89/"); }
 .element7 { color:#dd6de6; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006361/4CE6787859FE02554B8B1C5FAC974693F648AD82/"); }
 .element8 { color:#fb5d5e; background-image:url("https://images.steamusercontent.com/ugc/2115060196327367785/921EF2FAE5518ED30C24BE74F0654517EEDA47BC/"); }
-
-/* =========================
-   MAIN
-========================= */
-
 main {
   margin-top: 180px;
   padding: 30px 15px;
@@ -73,18 +52,12 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* =========================
-   ЗАГОЛОВКИ
-========================= */
-
 h1 {
   text-align: center;
   font-size: 2.8em;
   margin-bottom: 30px;
   text-shadow: 0 5px 15px rgba(0,0,0,0.8);
 }
-
 h2 {
   text-align: center;
   margin-top: 60px;
@@ -93,18 +66,12 @@ h2 {
   color: #ffd86b;
   text-shadow: 0 4px 12px rgba(0,0,0,0.7);
 }
-
 h3 {
   text-align: center;
   margin-top: 40px;
   color: #ff9edb;
   text-shadow: 0 3px 10px rgba(0,0,0,0.6);
 }
-
-/* =========================
-   ТЕКСТ
-========================= */
-
 p {
   max-width: 900px;
   margin: 15px auto;
@@ -115,11 +82,6 @@ p {
   border-radius: 16px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
-
-/* =========================
-   СПИСКИ
-========================= */
-
 ul {
   max-width: 600px;
   margin: 20px auto;
@@ -129,17 +91,11 @@ ul {
   border-radius: 18px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
-
 ul li {
   padding: 8px 0;
   text-align: center;
   font-weight: bold;
 }
-
-/* =========================
-   ЗОБРАЖЕННЯ
-========================= */
-
 img {
   display: block;
   max-width: 90%;
@@ -147,18 +103,12 @@ img {
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
 }
-
-/* =========================
-   FOOTER (ОНОВЛЕНИЙ)
-========================= */
-
 .footer {
   margin-top: 60px;
   background: linear-gradient(180deg, #0b0d25, #000);
   color: #ddd;
   box-shadow: inset 0 6px 20px rgba(0,0,0,0.8);
 }
-
 .footer-content {
   max-width: 1100px;
   margin: 0 auto;
@@ -168,15 +118,11 @@ img {
   align-items: flex-start;
   gap: 30px;
 }
-
-/* ЛІВА ЧАСТИНА */
 .footer-left h3 {
   margin: 0 0 15px;
   color: #ffd86b;
 }
 
-
-/* ПРАВА ЧАСТИНА */
 .footer-right h4 {
   margin-bottom: 10px;
   color: #9cf75d;
@@ -188,8 +134,6 @@ img {
   box-shadow: none;
   padding: 0;
 }
-
-/* НИЖНЯ ЛІНІЯ */
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding: 15px 10px;
