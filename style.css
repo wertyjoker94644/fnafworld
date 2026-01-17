@@ -1,5 +1,13 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>FNaF World Project</title>
 
-
+<style>
+/* =====================
+   ОСНОВНЕ
+===================== */
 * {
   box-sizing: border-box;
 }
@@ -12,7 +20,9 @@ body {
   line-height: 1.7;
 }
 
-
+/* =====================
+   НАВІГАЦІЯ
+===================== */
 .navigation {
   position: fixed;
   top: 0;
@@ -21,125 +31,217 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 10px 20px;
   gap: 10px;
-  background: rgba(15, 16, 41, 0.9);
+  padding: 12px;
+  background: rgba(15,16,41,0.9);
   backdrop-filter: blur(8px);
   box-shadow: 0 5px 25px rgba(0,0,0,0.6);
   z-index: 1000;
 }
 
-
 .navigation a {
-  text-decoration: none;
-  font-weight: bold;
   padding: 14px 22px;
   border-radius: 50px;
-  transition: all 0.3s ease;
+  font-weight: bold;
+  text-decoration: none;
   background-size: cover;
   background-position: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  transition: 0.3s;
 }
 
-
 .navigation a:hover {
-  transform: translateY(-4px) scale(1.05);
+  transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.8);
 }
 
-/* Індивідуальні кнопки */
-.element1 { color:#a6ace9; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006561/9E6A2E9F752246F94654AC5EBFB3D7F04A2AD3FE/"); }
-.element2 { color:#eba863; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006554/3C59408CB8656501E3A745C1E924937686643C43/"); }
-.element3 { color:#9cf75d; background-image:url("https://images.steamusercontent.com/ugc/2115060196327359169/CB23AF107421D491C681DF4FB3ABDFA8B44D03F1/"); }
-.element4 { color:#dd76ac; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006602/8CAD2355CAF715805AD87069A2C438078D553D6E/"); }
-.element5 { color:#4ef3a3; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006627/CCD3C798D9C1EB9BC3F22EB9F8A8D91841BB3636/"); }
-.element6 { color:#f7e031; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006574/D645B1850AA14BC34B638B94A29A0B1662769D89/"); }
-.element7 { color:#dd6de6; background-image:url("https://images.steamusercontent.com/ugc/2142083443578006361/4CE6787859FE02554B8B1C5FAC974693F648AD82/"); }
-.element8 { color:#fb5d5e; background-image:url("https://images.steamusercontent.com/ugc/2115060196327367785/921EF2FAE5518ED30C24BE74F0654517EEDA47BC/"); }
+.element1 { color:#a6ace9; }
+.element2 { color:#eba863; }
+.element3 { color:#9cf75d; }
+.element4 { color:#dd76ac; }
+.element5 { color:#4ef3a3; }
+.element6 { color:#f7e031; }
+.element7 { color:#dd6de6; }
+.element8 { color:#fb5d5e; }
 
-
-
-main {
-  margin-top: 180px;
-  padding: 30px 15px;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+/* =====================
+   БАНЕР (ФОТО ПІД МЕНЮ)
+===================== */
+.hero {
+  margin-top: 140px;
+  height: 360px;
+  background-image: url("https://images.steamusercontent.com/ugc/2435967426079958507/9F0D9A6E6F06D15E2C7E02F4C99D7C56CDA0D88C/");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.8);
 }
 
-
-
-h1 {
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(10,10,30,0.5),
+    rgba(10,10,30,0.85)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 2.8em;
-  margin-bottom: 30px;
-  text-shadow: 0 5px 15px rgba(0,0,0,0.8);
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 0 6px 20px rgba(0,0,0,1);
+}
+
+/* =====================
+   MAIN
+===================== */
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
 h2 {
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 20px;
-  font-size: 2em;
   color: #ffd86b;
   text-shadow: 0 4px 12px rgba(0,0,0,0.7);
 }
-
-h3 {
-  text-align: center;
-  margin-top: 40px;
-  color: #ff9edb;
-  text-shadow: 0 3px 10px rgba(0,0,0,0.6);
-}
-
-
 
 p {
   max-width: 900px;
   margin: 15px auto;
   text-align: center;
-  font-size: 1.05em;
   background: rgba(255,255,255,0.05);
-  padding: 15px 20px;
+  padding: 16px 20px;
   border-radius: 16px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
-
-
-ul {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  list-style: none;
-  background: rgba(255,255,255,0.05);
-  border-radius: 18px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
-}
-
-ul li {
-  padding: 8px 0;
-  text-align: center;
-  font-weight: bold;
-}
-
-
-
-img {
-  display: block;
-  max-width: 90%;
-  margin: 30px auto;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-}
-
-
-
+/* =====================
+   FOOTER
+===================== */
 footer {
-  margin-top: 80px;
-  padding: 30px;
-  text-align: center;
-  background: rgba(0,0,0,0.5);
-  box-shadow: inset 0 5px 15px rgba(0,0,0,0.6);
-  color: #aaa;
+  margin-top: 100px;
+  background: linear-gradient(180deg, #0b0c25, #050515);
+  box-shadow: inset 0 10px 30px rgba(0,0,0,0.8);
+  color: #ccc;
 }
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+  color: #ffd86b;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+
+.footer-left p,
+.footer-center p,
+.footer-right p {
+  background: none;
+  box-shadow: none;
+  text-align: left;
+  margin: 8px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #888;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="navigation">
+    <a href="#home" class="element1">Головна</a>
+    <a href="#map" class="element2">Локації</a>
+    <a href="#event" class="element3">Івент</a>
+    <a href="#gallery" class="element4">Галерея</a>
+    <a href="#chars" class="element5">Персонажі</a>
+    <a href="#mini" class="element6">Міні-ігри</a>
+    <a href="#end" class="element7">Кінцівки</a>
+    <a href="#author" class="element8">Автори</a>
+  </div>
+</header>
+
+<div class="hero" id="home">
+  <div class="hero-overlay">
+    <h1>Проєкт на тему: FNaF World</h1>
+  </div>
+</div>
+
+<main>
+  <h2 id="map">Карта світу</h2>
+  <p>Світ FNaF World виглядає яскраво і мультяшно, але приховує багато таємниць та секретних шляхів.</p>
+
+  <h2 id="event">Хелловінський івент</h2>
+  <p>Halloween Update показує темну версію світу та відкриває доступ до унікальних персонажів.</p>
+
+  <h2 id="chars">Персонажі</h2>
+  <p>У грі є як класичні аніматроніки, так і секретні персонажі, пов’язані з лором серії.</p>
+</main>
+
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <h3>Автор проєкту</h3>
+      <p><b>Андрій Морозовський</b></p>
+      <p>Навчальний проєкт по грі FNaF World</p>
+      <p style="margin-top:15px; font-size:0.9em; color:#aaa;">
+        Всі зображення були взяті зі Steam
+      </p>
+    </div>
+
+    <div class="footer-center">
+      <h3>Контакти</h3>
+      <p>📞 +380500773875</p>
+      <p>💬 Telegram: @WKiraJoshikagekillerqeen</p>
+    </div>
+
+    <div class="footer-right">
+      <h3>Про сайт</h3>
+      <p>Проєкт створено для навчальних цілей</p>
+      <p>Five Nights at Freddy’s © Scott Cawthon</p>
+      <p>FNaF World Fan Project</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 | FNaF World Project
+  </div>
+</footer>
+
+</body>
+</html>
